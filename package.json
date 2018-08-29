@@ -1,0 +1,32 @@
+{
+  "name": "mongoscraper",
+  "version": "1.0.0",
+  "description": "Mongo Scraper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Melville36/mongoscraper.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Melville36/mongoscraper/issues"
+  },
+  "homepage": "https://github.com/Melville36/mongoscraper#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.15.5",
+    "express-handlebars": "^3.0.0",
+    "jquery": "^3.2.1",
+    "jsdom": "^11.2.0",
+    "mongojs": "^2.6.0",
+    "mongoose": "^4.11.13",
+    "morgan": "^1.9.0",
+    "request": "^2.82.0"
+  }
+}
